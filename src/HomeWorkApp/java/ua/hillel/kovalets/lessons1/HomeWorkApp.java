@@ -10,7 +10,7 @@ public class HomeWorkApp {
         int a = 5;
         int b = 7;
         System.out.println("Сума чисел від 10 до 20: " + boolCeck(a, b));
-        System.out.println("\u001B[36m");
+
 
         int numPos = 0;
         int numNeg = -10;
@@ -22,6 +22,7 @@ public class HomeWorkApp {
         int num2 = -5;
         System.out.println(num1 + " негатив " + boolCeck2(num1));
         System.out.println(num2 + " негатив " + boolCeck2(num2));
+        System.out.println("\u001B[36m");
 
         //задание 9
         int numer3 = 3;
@@ -37,6 +38,7 @@ public class HomeWorkApp {
         System.out.println("Orange");
         System.out.println("Banana");
         System.out.println("Apple");
+        System.out.println("\u001B[36m");
     }
 
     public static void checkSumSign() {
