@@ -10,20 +10,18 @@ public class HomeWorkApp {
         int a = 5;
         int b = 7;
         System.out.println("Сума чисел від 10 до 20: " + boolCeck(a, b));
-        System.out.println();
+        System.out.println("\u001B[36m");
 
         int numPos = 0;
         int numNeg = -10;
         posivifOrNega(numPos);
         posivifOrNega(numNeg);
-        System.out.println();
 
         //задание номер 8
         int num1 = 5;
         int num2 = -5;
         System.out.println(num1 + " негатив " + boolCeck2(num1));
         System.out.println(num2 + " негатив " + boolCeck2(num2));
-        System.out.println();
 
         //задание 9
         int numer3 = 3;
@@ -39,8 +37,6 @@ public class HomeWorkApp {
         System.out.println("Orange");
         System.out.println("Banana");
         System.out.println("Apple");
-        System.out.println();
-
     }
 
     public static void checkSumSign() {
@@ -52,7 +48,6 @@ public class HomeWorkApp {
         } else {
             System.out.println("Сума негативна!");
         }
-        System.out.println();
     }
 
     public static void printColor() {
@@ -65,7 +60,7 @@ public class HomeWorkApp {
         } else if (value > 100) {
             System.out.println("Зелений");
         }
-        System.out.println();
+
     }
 
     public static void compareNumbers() {
@@ -77,7 +72,7 @@ public class HomeWorkApp {
         } else {
             System.out.println("a < b");
         }
-        System.out.println();
+
     }
 
     public static boolean boolCeck(int a, int b) {
@@ -101,7 +96,6 @@ public class HomeWorkApp {
         for (int i = 0; i < numer3; i++) {
             System.out.println(text3);
         }
-        System.out.println();
     }
 
     public static boolean jahrGross(int jahr) {
